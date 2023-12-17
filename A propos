@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Page à la manière de Divi - Maître Iodé</title>
+    <style>
+        /* Reset CSS pour la mise en forme de base */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f7f7f7; /* Couleur de fond */
+            color: #333; /* Couleur du texte */
+            margin: 0;
+        }
+
+        header {
+            background-color: #333; /* Couleur de fond de l'en-tête */
+            color: white; /* Couleur du texte de l'en-tête */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+            background-color: #ddd; /* Couleur de fond de la section hero */
+            color: #333; /* Couleur du texte dans la section hero */
+        }
+
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333; /* Couleur de fond du footer */
+            color: white; /* Couleur du texte du footer */
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maître Iodé</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Cours de Judo</a></li>
+                <li><a href="#">Techniques de Judo</a></li>
+                <li><a href="#">Blog Articles</a></li>
+                <li><a href="#">Ressources</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Bienvenue chez Maître Iodé</h2>
+        <img src="https://kering-my.sharepoint.com/:i:/r/personal/valery_nguyen-ext_kering_com/Documents/Images/Perso/maitre%20iod%C3%A9/Maitre%20IODE%20avatar.jpg?csf=1&web=1&e=pfQ0tq" alt="Maître Iodé Avatar" width="170" height="auto">
+        <p>Le site de partage des bonnes pratiques du professeur de judo.</p>
+    </div>
+
+    <section>
+        <h2>Cours de Judo</h2>
+        <img src="https://kering-my.sharepoint.com/:i:/r/personal/valery_nguyen-ext_kering_com/Documents/Images/Perso/maitre%20iod%C3%A9/judo%20class.jpg?csf=1&web=1&e=PzxyiE" alt="Illustration Cours de Judo" width="100" height="auto">
+        <p>Contenu des cours de judo...</p>
+    </section>
+
+    <section>
+        <h2>Techniques de Judo</h2>
+        <img src="lien_image_techniques_de_judo.jpg" alt="Illustration Techniques de Judo" width="300" height="auto">
+        <p>Liste des techniques de judo...</p>
+    </section>
+
+    <!-- Ajoutez d'autres sections de la même manière -->
+
+    <footer>
+        <p>&copy; 2023 Maître Iodé. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
